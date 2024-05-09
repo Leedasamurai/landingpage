@@ -1,0 +1,51 @@
+export const homeObjOne = {
+  id: "about",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topline: "Planning your day",
+  headline: "Time management to ease your day",
+  description:
+    "This app was made to help people manage their time more efficiently which is what the creator struggled with the most.",
+  buttonLabel: "Get Started",
+  imageStart: false,
+  img: require("../../images/svg-1.svg").default,
+  alt: "Car",
+  dark: true,
+  primary: true,
+  darkText: false,
+};
+
+export const homeObjTwo = {
+  id: "discover",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topline: "Ease of use",
+  headline: "Prioritise your time",
+  description: "Discover how time management creates easier flow of your day.",
+  buttonLabel: "Learn more",
+  imageStart: true,
+  img: require("../../images/svg-2.svg").default,
+  alt: "Communication",
+  dark: false,
+  primary: false,
+  darkText: true,
+};
+
+export const homeObjThree = {
+  id: "signup",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topline: "join our Family",
+  headline: "Start your journey today",
+  description: "Easy to you interface with just one click.",
+  buttonLabel: "Start Now",
+  imageStart: false,
+  img: require("../../images/svg-3.svg").default,
+  alt: "papers",
+  dark: false,
+  primary: false,
+  darkText: true,
+};
