@@ -88,7 +88,7 @@ const Navbar = ({ toggle }) => {
                 exact="true"
                 offset={-80}
               >
-                startnow
+                Start Now
               </NavLinks>
             </NavItem>
           </NavMenu>
